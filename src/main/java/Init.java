@@ -11,11 +11,14 @@ public class Init {
             yesterday.getContent().put("http://2", "2");
             yesterday.getContent().put("http://3", "3");
             yesterday.getContent().put("http://4", "4");
+            yesterday.getContent().put("http://yandex.ru", "hello");
+
 
             today.getContent().put("http://1", "1");
             today.getContent().put("http://2", "22");
-            today.getContent().put("http://google.com", "google");
             today.getContent().put("http://3", "33");
+            today.getContent().put("http://google.com", "google");
+            today.getContent().put("http://yandex.ru", "some text");
         }
         System.out.println("Init\n");
 
